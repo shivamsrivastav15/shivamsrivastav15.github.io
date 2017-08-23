@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i" rel="stylesheet">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="styles/dashboard.css">
+</head>
+<div class="header">
+    <i class="fa bars-one fa-bars"></i>
+    <div class="header-circle"><img src="images/logo.jpg" alt="logo/"></div><span class="logo-text"><b>DASHBOARD </b></span> <span>v1.0</span>
+    <div class="top-right">
+        <div class="right-link"><i class="fa circle-one fa-user-circle-o"> </i>Username <i class="fa right-down fa-sort-down"></i></div>
+        <div class="menu-right">
+            <div class="option">Change Password</div>
+            <div class="option">Logout</div>
+        </div>
+    </div>
+    <div class="top-middle">
+        <button class="button-all">All <i class="fa down-one fa-sort-down"></i></button>
+        <div class="menu">
+            <div class="option">Option 1</div>
+            <div class="option">Option 2</div>
+        </div>
+        <input type="text">
+        <button class="button-search"><i class="fa search-one fa-search"></i></button>
+    </div>
+</div>
+<div class="sub-container">
+    <div class="content-left">
+        <ul>
+            <li class="active">
+                <div class="icon-circle"></div>Typography</li>
+
+            <li> <div class="icon-circle"></div>Page Layout</li>
+
+            <li> <div class="icon-circle"></div>Buttons</li>
+            
+            <li><div class="icon-circle"></div>Forms</li>
+            
+            <li><div class="icon-circle"></div>Lists</li>
+            
+            <li><div class="icon-circle"></div>Panels</li>
+            
+            <li><div class="icon-circle"></div>Tables</li>
+            
+            <li><div class="icon-circle"></div>Tabs</li>
+            
+            <li><div class="icon-circle"></div>Dashboard</li>
+            
+            <li><div class="icon-circle"></div>Generel Elements</li>
+            
+            <li><div class="icon-circle"></div>Versions</li>
+        </ul>
+    </div>
+    <div class="content-right">
+        <h4>Typography</h4>
+    </div>
+    <div class="content-down">
+        <div class="row-one">
+            <div class="row-one-a">Open Sans
+            </div>
+            <div class="row-one-b">Open Sans is a sans-serif typeface designed by Steve Matteson and commissioned by Google. According to Google, it was developed with an "upright stress, open forms and a neutral, yet friendly appearance" and is "optimized for legibility across print, web, and mobile interfaces."</div>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <h4>Font Weight</h4>
+            <p class="paragraph-style">Regular <i>Italic</i> Semi-bold <b>Bold</b></p>
+            <br>
+            <h4>Heading sizes</h4>
+            <div class="heading">
+                <h1>Heading h1</h1></div>
+            <div class="a"> Color: #000000 alpha:87 | Font size: 32px | Font weight: Semi-bold | Line-height: 43px
+            </div>
+            <div class="heading">
+                <h2>Heading h2</h2></div>
+            <div class="a">Color: #000000 alpha:87 | Font size: 24px | Font weight: Semi-bold | Line-height: 33px
+            </div>
+            <div class="heading">
+                <h3>Heading h3</h3></div>
+            <div class="a">Color: #000000 alpha:87 | Font size: 20px | Font weight: Semi-bold | Line-height: 27px
+            </div>
+            <div class="heading">
+                <h4>Heading h4</h4></div>
+            <div class="a">Color: #000000 alpha:87 | Font size: 18px | Font weight: Semi-bold | Line-height: 24px</div>
+            <div class="heading">
+                <h5>Heading h5</h5></div>
+            <div class="a">Color: #000000 alpha:87 | Font size: 16px | Font weight: Semi-bold | Line-height: 22px
+            </div>
+            <div class="heading">
+                <h6>Heading h6</h6></div>
+            <div class="a">Color: #000000 alpha:87 | Font size: 14px | Font weight: Semi-bold | Line-height: 19px
+            </div>
+            <br>
+            <div class="heading">
+                <h1>Jumbo Text</h1></div>
+            <div class="a">Color: #000000 alpha:87 | Font size: 48px | Font weight: Semi-bold | Line-height: 65px
+            </div>
+            <br>
+            <div class="last-heading"><b>Paragraph</b></div>
+            <div class="a">Color: #000000 alpha:87 | Font size: 13px | Font weight: Regular | Line-height: 18px
+            </div>
+            <div class="last"> Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</div>
+        </div>
+    </div>
+</div>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function() {
+
+    $(".button-all").click(function() {
+
+
+        $(".menu").toggleClass("show");
+
+    });
+    $(".right-link").click(function() {
+
+
+        $(".menu-right").toggleClass("hide");
+    });
+
+
+});
+</script>
+
+</html>
