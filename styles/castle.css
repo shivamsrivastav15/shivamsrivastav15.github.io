@@ -1,0 +1,111 @@
+div {
+    outline: 1px solid black;
+}
+
+.main-box {
+    height: 390px;
+    width: 320px;
+    margin: auto;
+    position: relative;
+    top: 130px;
+    /* background-color: #f3f3f3; */
+    overflow: hidden;
+    outline: 1px solid #fcbcb0;
+    outline: none;
+}
+
+.box {
+    width: 10%;
+    height: 16px;
+    /* float: left; */
+    position: absolute;
+    /* padding-right: 0px; */
+    border: 2px solid black;
+    background-color: #c84c0c;
+    /* left: 0; */
+    /* bottom: 0; */
+    /* right: 0; */
+    box-sizing: border-box;
+    transition: bottom 1s, transform 1.5s;
+    bottom: 90%;
+    transform: rotate(0);
+}
+
+.box-center {
+    height: 175px;
+    width: 82px;
+    position: absolute;
+    border: 1px solid black;
+    bottom: 0;
+    left: 120px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    background-color: black;
+    z-index: 2;
+    outline: none;
+}
+
+.white-box {
+    height: 32px;
+    border-color: #fcbcb0;
+    outline: none;
+    z-index: 2;
+    border: 3px solid #fcbcb0;
+
+}
+.big-box{
+	height: 80px;
+	width: 40px;
+	border:none;
+	background-color: black;
+}
+.above-box{
+	width: 196px;
+	height: 164px;
+	border:none;
+	position: relative;
+	margin: auto;
+	background-color: white;
+	outline: none;
+	overflow: hidden;
+}
+.box-top{
+	width: 32px;
+	height: 16px;
+	/* float: left; */
+	position: absolute;
+	/* padding-right: 0px; */
+	border: 2px solid black;
+	background-color: #c84c0c;
+	/* left: 0; */
+	/* bottom: 0; */
+	/* right: 0; */
+	box-sizing: border-box;
+}
+.white-box-top{
+	height: 32px;
+    border-color: #fcbcb0;
+    outline: none;
+    border: 3px solid #fcbcb0;
+
+}
+
+.brk-btn{
+	display: block;
+	width: 100px;
+	margin:auto;
+}
+
+.brk-btn::before{
+	content:'BREAK';
+	display: inline;
+}
+
+.brk-btn:focus::before{
+	content:'BUILD';
+}
+
+.brk-btn:focus + .main-box .box{
+	bottom: 0 !important;
+	transform:rotate(45deg);
+}
