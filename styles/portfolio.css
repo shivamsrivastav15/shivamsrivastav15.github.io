@@ -1,1 +1,242 @@
+ body {
+     width: 100%;
+     margin: 0;
+     font-family: 'Lato', sans-serif;
+     text-align: center;
+ }
 
+ .header {
+     /* outline: 1px solid black; */
+     height: 100px;
+     width: 100%;
+     background-color: #222221;
+     color: white;
+     position: fixed;
+     top: 0;
+     border-bottom: 1px solid #454545;
+ }
+
+ .second {
+     /* outline: 1px solid black; */
+     height: 90px;
+     line-height: 90px;
+     font-size: 35px;
+     margin-top: 100px;
+ }
+
+
+ .circle {
+     border: 1px solid white;
+     height: 150px;
+     width: 150px;
+     /* float: left; */
+     /* margin-top: 30px; */
+     /* margin-right: 90px; */
+     margin: auto;
+     border-radius: 50%;
+     margin-top: 45px;
+     background-image: url("../images/shivam.jpg");
+     cursor: pointer;
+     /* margin-bottom: 30px; */
+ }
+
+ .third {
+     /* outline: 1px solid black; */
+     height: 70px;
+     line-height: 70px;
+     background-color: #f26767;
+     color: white;
+     font-size: 25px;
+ }
+
+ .header-one {
+     float: left;
+     padding: 25px;
+     box-sizing: border-box;
+     font-size: 20px;
+ }
+
+ .header-two {
+     height: 100px;
+     width: 600px;
+     float: right;
+     /* outline: 1px solid black; */
+     margin: auto;
+ }
+
+ .header-two-a {
+     float: left;
+     /* outline: 1px solid black; */
+     width: 45%;
+     margin-left: 30px;
+ }
+
+ .header-two-a ul {
+
+     list-style: none;
+
+     width: 83%;
+     /* height: 35px; */
+ }
+
+ .header-two-a ul li {
+     /* outline: 1px solid black; */
+     width: 200px;
+     height: 35px;
+     line-height: 35px;
+     /* padding-right: 0px; */
+     margin-left: 60px;
+     margin-top: 33px;
+     background-color: #4c4b4b;
+     font-size: 16px;
+ }
+
+ .header-two-b ul {
+
+     list-style: none;
+
+     width: 83%;
+ }
+
+ .header-two-b ul li {
+     /* outline: 1px solid black; */
+     width: 200px;
+     height: 35px;
+     line-height: 35px;
+     margin-left: 25px;
+     margin-top: 33px;
+     background-color: #4c4b4b;
+     font-size: 16px;
+ }
+
+ .header-two-b {
+     /* outline: 1px solid black; */
+     float: right;
+     margin-right: 30px;
+     width: 45%;
+ }
+
+ .four {
+     height: 300px;
+     /* outline: 1px solid black; */
+     background-color: #f26767;
+ }
+
+ .five {
+     /* outline: 1px solid black; */
+     height: 300px;
+     /* margin-top: 40px; */
+ }
+
+ .pic {
+     /* border: 1px solid black; */
+     height: 150px;
+     width: 150px;
+     position: relative;
+     top: 30px;
+     margin: auto;
+     border-radius: 50%;
+     background-image: url("../images/shiva.png");
+     background-size: 100%;
+     z-index: -1;
+ }
+
+ .about-text {
+     /* outline: 1px solid black; */
+     height: 150px;
+     font-size: 25px;
+     color: black;
+     margin-top: 60px;
+     font-family: Cambria, Georgia;
+ }
+
+ .six {
+     height: 180px;
+     background-color: #f26767;
+     padding-top: 20px;
+ }
+
+ .six-contact {
+     /* outline: 1px solid black; */
+     height: 110px;
+     /* padding: 10px; */
+     px; */
+     padding: 20px;
+     background-color: #f26767;
+     color: white;
+     font-size: 21px;
+     font-family: Cambria, Georgia;
+     /* position: relative; */
+     /* margin-top: 20px; */
+ }
+ .icon{
+     height: 50px;
+     /* float: left; */
+ }
+ .box{
+     width: 9%;
+     margin: auto;
+     /* outline: 1px solid black; */
+ }
+
+.icon-circle{
+     width: 50%;
+     float: left;
+}
+
+
+ .icon-circle-one {
+     /* border: 1px solid black; */
+     cursor: pointer;
+ }
+.icon-circle-one img{
+     height: 40px;
+     width: 40px;
+     border-radius: 50%;
+
+}
+
+
+ .clearfix::after {
+     content: "";
+     display: table;
+     clear: both;
+ }
+
+ .sub-container-circle {
+     /* outline: 1px solid black; */
+     height: 250px;
+     width: 80%;
+     margin: auto;
+ }
+
+ a {
+     text-decoration: none;
+     width: 100%;
+     height: 50px;
+     /* display: inline-block; */
+ }
+
+ span {
+     font-size: 16px;
+     margin-right: 50px;
+ }
+ .box-circle{
+     width: 25%;
+     float: left;
+ }
+ 
+
+ 
+
+ .resume-img{
+     padding: 70px;
+
+ }
+ .resume-background{
+     background-color: #232323;
+     z-index: 1;
+ }
+ .resume-heading{
+     margin-top: 0;
+ }
