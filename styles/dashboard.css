@@ -1,14 +1,11 @@
 * {
     box-sizing: border-box;
-    /* cursor: pointer; */
 }
 
 body {
     margin: 0;
     font-family: 'Open Sans', sans-serif;
 }
-
-
 
 .header {
     height: 41px;
@@ -21,9 +18,6 @@ body {
     z-index: 9;
 }
 
-.sub-container {
-    /* width: 100%; */
-}
 
 .content-left {
     width: 220px;
@@ -33,7 +27,6 @@ body {
     position: fixed;
     top: 42px;
 }
-
 
 .content-right {
     width: calc(100% - 220px);
@@ -45,60 +38,46 @@ body {
 
 .content-down {
     width: calc(100% - 220px);
-    /* height: 1013px; */
     float: right;
     padding: 30px;
 }
 
 ul {
     margin-top: 0;
-    /* width: 100%; */
-    /* outline: 1px solid black; */
-    /* margin-bottom: 30px; */
+    padding-left: 47px;
 }
 
 li {
     list-style: none;
-    font-size: 15px;
+    font-size: 14px;
     color: #6e6e6a;
     font-family: arial;
-    padding: 11px 0;
+    padding: 16px 0;
 }
 
 .icon-circle {
     height: 17px;
     width: 17px;
     border-radius: 50%;
-    /* border: 1px solid black; */
-    /* float: left; */
     position: absolute;
-    left: 10px;
-    /* bottom: 1px; */
+    left: 14px;
     outline: none;
     background-color: #A6A6A3;
     cursor: pointer;
 }
 
-
-
 .header-circle {
-    /* border: 1px solid black; */
     height: 20px;
     width: 20px;
     border-radius: 50%;
     display: inline-block;
-    /* line-height: 20px; */
     margin: 0px 7px;
-    /* margin-top: 10px; */
-    /* padding-top: 4px; */
-    /* margin-top: 10px; */
     cursor: pointer;
 }
 
 img {
     height: 23px;
     width: 23px;
-    /* margin-top: -6px; */
     position: relative;
     top: 5px;
 }
@@ -111,7 +90,6 @@ h4 {
 }
 
 .top-right {
-    /* outline: 1px solid black; */
     float: right;
     font-size: 14px;
     font-family: arial;
@@ -119,28 +97,21 @@ h4 {
 }
 
 .top-middle {
-    /* outline: 1px solid black; */
     float: right;
     margin: 0px 200px;
     margin-top: -2px;
 }
 
-
 .button-all {
-    /* padding-bottom: 0.1px; */
     height: 30px;
     width: 70px;
-    /* margin-right: -8px; */
-    /* padding: 4px 0px; */
     border-top-left-radius: 3px;
     border-bottom-left-radius: 3px;
     background-color: #e6e6e6;
     border: none;
-    /* padding-bottom: 0px; */
     margin-right: -4px;
     cursor: pointer;
 }
-
 
 .button-search {
     height: 30px;
@@ -149,19 +120,16 @@ h4 {
     border-bottom-right-radius: 3px;
     border-top-right-radius: 3px;
     background-color: #8a8f98;
-    /* padding-top: 0px; */
     border-color: #8a8f98;
     border: none;
     cursor: pointer;
 }
 
 input {
-    /* outline: 1px solid white; */
     height: 30px;
     border: none;
     width: 287px;
     background-color: #6e737f;
-    /* padding: 5px; */
     */
 }
 
@@ -191,21 +159,17 @@ input {
 
 .row-one {
     width: 100%;
-    /* outline: 1px solid black; */
     margin-top: 30px;
-    /* padding: 30px; */
 }
 
 .row-one-a {
     width: 25%;
-    /* outline: 1px solid black; */
     float: left;
     font-size: 32px;
 }
 
 .row-one-b {
     width: 75%;
-    /* outline: 1px solid black; */
     float: right;
     font-size: 14px;
     padding-left: 30px;
@@ -214,24 +178,19 @@ input {
 .a {
     width: 75%;
     float: right;
-    /* outline: 1px solid black; */
     font-size: 13px;
     position: relative;
     bottom: 53px;
     padding-left: 50px;
 }
 
-
 .last-heading {
     width: 25%;
-    /* outline: 1px solid black; */
-    /* float: left; */
     font-size: 20px;
     margin-bottom: 20px;
 }
 
 .right-down {
-    /* margin-top: 12px; */
     position: relative;
     left: 5px;
     top: -3px;
@@ -246,13 +205,10 @@ span {
 
 .menu {
     width: 12%;
-    /* outline: 1px solid black; */
     position: absolute;
     box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 2px 0px rgba(0, 0, 0, 0.24);
     background: #F1F1F1;
     display: none;
-
-    /* z-index: 9; */
 }
 
 .option {
@@ -262,8 +218,6 @@ span {
     font-size: 13px;
     padding-left: 9px;
     cursor: pointer;
-    /* margin-bottom: 1px; */
-    /* z-index: 6; */
 }
 
 .option:hover {
@@ -282,23 +236,27 @@ span {
 .show {
     display: block;
 }
+
 .menu-right {
     width: 12%;
-    /* outline: 1px solid black; */
     position: absolute;
     box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 2px 0px rgba(0, 0, 0, 0.24);
     background: #F1F1F1;
     display: none;
 }
-.hide{
+
+.hide {
     display: block;
 }
-.move{
+
+.move {
     display: none;
 }
-.content-left li.active{
+
+.content-left li.active {
     color: #f0503c;
 }
-.content-left li.active .icon-circle{
+
+.content-left li.active .icon-circle {
     background-color: #f0503c;
 }
