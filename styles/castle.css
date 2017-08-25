@@ -54,36 +54,40 @@ div {
 
 }
 .big-box{
-	height: 80px;
-	width: 40px;
-	border:none;
-	background-color: black;
+    height: 80px;
+    width: 40px;
+    border:none;
+    background-color: black;
 }
 .above-box{
-	width: 196px;
-	height: 164px;
-	border:none;
-	position: relative;
-	margin: auto;
-	background-color: white;
-	outline: none;
-	overflow: hidden;
+    width: 196px;
+    height: 164px;
+    border:none;
+    bottom: 227px;
+    position: absolute;
+    margin: auto;
+    background-color: white;
+    outline: none;
+    overflow: hidden;
+    left: 50%;
+    transform: translateX(-50%);
+    transition:all 1s;
 }
 .box-top{
-	width: 32px;
-	height: 16px;
-	/* float: left; */
-	position: absolute;
-	/* padding-right: 0px; */
-	border: 2px solid black;
-	background-color: #c84c0c;
-	/* left: 0; */
-	/* bottom: 0; */
-	/* right: 0; */
-	box-sizing: border-box;
+    width: 32px;
+    height: 16px;
+    /* float: left; */
+    position: absolute;
+    /* padding-right: 0px; */
+    border: 2px solid black;
+    background-color: #c84c0c;
+    /* left: 0; */
+    /* bottom: 0; */
+    /* right: 0; */
+    box-sizing: border-box;
 }
 .white-box-top{
-	height: 32px;
+    height: 32px;
     border-color: #fcbcb0;
     outline: none;
     border: 3px solid #fcbcb0;
@@ -91,21 +95,32 @@ div {
 }
 
 .brk-btn{
-	display: block;
-	width: 100px;
-	margin:auto;
+    display: block;
+    width: 160px;
+    margin:auto;
+    padding: 8px 0px;
+    text-decoration: none;
+    text-align: center;
+    background-color: #c84c0c;
+    border-radius: 5px;
+    color: white;
+    margin-top: 20px;
 }
 
 .brk-btn::before{
-	content:'BREAK';
-	display: inline;
+    content: 'BREAK CASTLE';
+    display: inline;
 }
 
 .brk-btn:focus::before{
-	content:'BUILD';
+    content: 'BUILD CASTLE';
 }
 
-.brk-btn:focus + .main-box .box{
-	bottom: 0 !important;
-	transform:rotate(45deg);
+.brk-btn:focus + .main-box .box,.brk-btn:focus + .main-box .box-top{
+    bottom: 0 !important;
+    transform:rotate(45deg);
+}
+
+.brk-btn:focus + .main-box .above-box{
+    bottom: 0;
 }
